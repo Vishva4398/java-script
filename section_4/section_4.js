@@ -164,6 +164,11 @@ add(a, b, sayHello);
 */
 
 
-//Array Iterator
-
-
+//Array Iterator:- 
+//(An iterator is an object that is returned by the Symbol.iterator() method.The iterator protocol provides the next() method to access each element of the iterable (ds) one at a time")
+/*
+let x = ['apple','mango','orange','grapes'];
+let y = x[Symbol.iterator]();
+console.log(y.next());
+console.log(y.next());
+*/
