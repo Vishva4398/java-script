@@ -172,3 +172,45 @@ let y = x[Symbol.iterator]();
 console.log(y.next());
 console.log(y.next());
 */
+
+//forEach(The forEach() method calls a function for each element in an array)
+/*
+const emp = [
+  {name:'vardan', salary:40, position:"SE"},
+  {name:'boby', salary:30, position:"graphics designer"},
+  {name:'metas', salary:20, position:"Associate"},
+];
+
+emp.forEach(function(value){
+  console.log(value);
+
+});
+*/
+
+
+
+//map() function
+// the map()method creates a new array with the result of calling a function for every array element.
+/*
+let a = [1,2,3,4,5,6,7];
+let b = a.map(test);
+console.log(b);
+function test(x){
+  return x * 10;
+}
+*/
+
+//filter()
+//filter() method creates an array filled with all array element that pass a test
+/*const emp = [
+  {name:'vardan', age:40, position:"SE"},
+  {name:'boby', age:26, position:"graphics designer"},
+  {name:'metas', age:20, position:"Associate"},
+  {name:'metas', age:25, position:"junior engineer"},
+];
+
+const youngAge = emp.filter(function(people) {
+  return people.age <= 25
+});
+console.log(youngAge);
+*/
