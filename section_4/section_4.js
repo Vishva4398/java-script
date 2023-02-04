@@ -284,7 +284,7 @@ console.log(result);
 
 
 // Data Object
- const month = [
+ /*const months = [
   'jan',
   'feb',
   'march',
@@ -299,5 +299,27 @@ console.log(result);
 ];
 
 const days = [
-  
-]
+
+  'sunday',
+  'monday',
+  'tuesday',
+  'wednesday',
+  'thursday',
+  'friday',
+  'saturday',
+  ];
+   
+const date = new Date();
+const month = date.getMonth();
+console.log(months[month]);
+
+const day = date.getDay();
+console.log(days[day]);
+
+console.log(date.getDate());
+console.log(date.getFullYear());
+
+const sentence =`${days[day]}, ${date.getDate()} ${months[month]} ${date.getFullYear()}`;
+console.log(sentence);
+
+*/
