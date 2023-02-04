@@ -214,3 +214,90 @@ const youngAge = emp.filter(function(people) {
 });
 console.log(youngAge);
 */
+
+
+//find()
+/*
+const emp = [
+  {name:'vardan', age:40, position:"SE",id:1 },
+  {name:'boby', age:26, position:"graphics designer",id:2 },
+  {name:'metas', age:20, position:"Associate", id:3 },
+  {name:'metas', age:25, position:"junior engineer", id:4 },
+];
+const names = ['bob','peter','susy'];
+const person = emp.find(function(person) {
+  return person.id === 3;
+
+});
+
+console.log(
+  names.find(function(name){
+    return name ==='bob';
+  })
+);
+
+console.log(person);
+*/
+
+
+// reduce()
+//the reduce()method execute reducer function on each element of the array, resulting in single output value.
+// 1 parameter ('acc)-- tatal of all calculations
+//2 parameter ('curr')-- current iteration/value
+/*
+const emp = [
+  {name:'vardan', age:40, position:"SE", id : 1, salary:200,},
+  {name:'boby', age:26, position:"graphics designer", id : 2, salary:300,},
+  {name:'metas', age:20, position:"Associate", id : 3, salary:400,},
+  {name:'john', age:25, position:"junior engineer", id : 4, salary:500,},
+];
+
+const total = emp.reduce(function(accum, currItem){
+  console.log(accum);
+  console.log(currItem);
+
+  return accum;
+});
+*/
+
+
+//Math object (standard built in object)
+
+// using Math.floor()
+/* const number = 4.5764;
+const result = Math.floor(number);
+
+console.log(result);
+*/
+//using Math.ceil()
+/*const number = 4.5764;
+const result = Math.ceil(number);
+
+console.log(result);
+*/
+//using Math.round()
+/*const number = 4.5764;
+const result = Math.round(number);
+
+console.log(result);
+*/
+
+
+// Data Object
+ const month = [
+  'jan',
+  'feb',
+  'march',
+  'april',
+  'may',
+  'june',
+  'july',
+  'august',
+  'oct',
+  'nov',
+  'december',
+];
+
+const days = [
+  
+]
