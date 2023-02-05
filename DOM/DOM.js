@@ -46,3 +46,13 @@ listItems[2].style.color = 'pink';
 //querySelector()--selects single
 //querySelectorAll()--select all
 
+//var result = document.querySelector('.item');// query selector apply only first element of list
+//result.style.color ='red';
+
+//var result = document.querySelectorAll('.item');//qyery selector all apply any list value
+//result[1].style.color ='red';
+
+
+
+//Navigate the DOM -children
+
